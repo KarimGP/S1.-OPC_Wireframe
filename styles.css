@@ -3,6 +3,7 @@ body {
     padding: 0px;
     background-color: rgb(230, 230, 230);
 }
+
 .container {
     margin: auto;
     max-width: 1000px;
@@ -17,9 +18,8 @@ header {
     height: 100px;
     width: auto;
     margin: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     align-items: center;
-    
 }
 
 #element1 {
@@ -49,12 +49,6 @@ header {
     border-radius: 40px;
     display: grid;
     align-items: center;
-
-}
-
-nav {
-    display: grid;
-
 }
 
 .gridNav {
@@ -64,7 +58,7 @@ nav {
     height: 4vh;
     width: auto;
     margin: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .gridNav > div {
@@ -84,7 +78,7 @@ nav {
     margin-bottom: 20px;
 }
 
-.element3 {
+#element3 {
     display: grid;
     grid-column-gap: 7px;
     grid-template-columns: repeat(3, 1fr); 
@@ -93,7 +87,7 @@ nav {
     height: 200px;
 }
 
-.element3 > div {
+#element3 > div {
     background-color: rgb(136, 136, 136);
     text-align: center;
     padding: 0px;
@@ -103,23 +97,21 @@ nav {
     align-items: center;
 }
 
-.element4 {
+#element4 {
     display: grid;
     grid-template-columns: 25% 50% 25%; 
     width: auto;
     margin: 0px;
     height: 400px;
-
 }
 
-.element4 > div {
+#element4 > div {
     background-color: rgb(136, 136, 136);
     padding: 0px;
     font-size: 20px;
     text-align: center;
     display: grid;
     align-items: center;
-
 }
 
 #colmed {
